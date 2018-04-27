@@ -9,13 +9,13 @@ public class Main {
     int valor = in.nextInt();
     
     for (int i=0; i < entrada; i++) {
-      valor = in.nextInt();
-        if (valor % 2 == 0) {
+      entrada = in.nextInt();
+        if (entrada % 2 == 0) {
           System.out.println(valor+" eh perfeito");
-        } else if (valor % 2 != 0) {
+        } else if (entrada % 2 != 0) {
           System.out.println(valor+"nao eh perfeito");
         }
-      valor = in.nextInt();
+      entrada = in.nextInt();
     }    
     in.close();  
   }
