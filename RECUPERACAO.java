@@ -6,16 +6,16 @@ public class Main {
   Scanner in = new Scanner(System.in);
     
     int entrada = in.nextInt();
-    int valor = in.nextInt();
+    int valor;
     
     for (int i=0; i < entrada; i++) {
-      entrada = in.nextInt();
-        if (entrada % 2 == 0) {
+      valor = in.nextInt();
+        if (valor % 2 == 0) {
           System.out.println(valor+" eh perfeito");
-        } else if (entrada % 2 != 0) {
+        } else if (valor % 2 != 0) {
           System.out.println(valor+"nao eh perfeito");
         }
-      entrada = in.nextInt();
+      valor = in.nextInt();
     }    
     in.close();  
   }
